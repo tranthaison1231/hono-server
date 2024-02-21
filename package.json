@@ -1,10 +1,7 @@
 {
-  "main": "index.js",
   "scripts": {
+    "start": "vercel dev",
     "deploy": "vercel",
-    "start": "node public/index.js",
-    "build": "tsc && tsc-alias",
-    "dev": "tsx watch src/index.ts",
     "check": "tsc --noEmit",
     "generate": "prisma generate",
     "postinstall": "prisma generate",
@@ -42,6 +39,7 @@
     "prisma-dbml-generator": "^0.12.0",
     "tsc-alias": "^1.8.8",
     "tsx": "^4.7.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "vercel": "^33.5.1"
   }
 }
