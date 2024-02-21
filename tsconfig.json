@@ -16,7 +16,7 @@
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
-    "outDir": "./dist",
+    "outDir": "./public",
     "strict": true,
     "baseUrl": "./",
     "paths": {
